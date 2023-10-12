@@ -62,7 +62,7 @@ header>.logoPadre {
 }
 
 header>.logoPadre>a>img {
-  width: 90%;
+  width: 65%;
   align-self: center;
 }
 
@@ -715,7 +715,7 @@ main .jardin6:hover {
   padding-top: 10px;
 }
 
->.nosotros3 {
+.nosotros3 {
   -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation-delay: 0.5s;
@@ -756,22 +756,22 @@ main .jardin6:hover {
 }
 
 @media (max-width: 720px) {
-  >.nosotros3 {
+  .nosotros3 {
     animation: none;
     flex-direction: column;
   }
 }
 
->.nosotros3>.imagenNosotros3 {
+.nosotros3>.imagenNosotros3 {
   padding: 30px;
   align-self: center;
 }
 
->.nosotros3>.imagenNosotros3>img {
+.nosotros3>.imagenNosotros3>img {
   width: 100%;
 }
 
->.nosotros3>.textoNosotros3 {
+.nosotros3>.textoNosotros3 {
   width: 55%;
   font-size: 16px;
   line-height: 25px;
@@ -781,13 +781,13 @@ main .jardin6:hover {
 }
 
 @media (max-width: 720px) {
-  >.nosotros3>.textoNosotros3 {
+  .nosotros3>.textoNosotros3 {
     width: auto;
     text-align: center;
   }
 }
 
->.nosotros3>.textoNosotros3>p {
+.nosotros3>.textoNosotros3>p {
   padding-top: 10px;
 }
 
